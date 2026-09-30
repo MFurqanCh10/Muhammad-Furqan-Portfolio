@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Muhammad Furqan — Full Stack Developer specializing in Java, Spring Boot, AI/ML integration, Flask, MySQL and modern web applications." />
+  <meta name="theme-color" content="#070b14" />
+  <meta property="og:title" content="Muhammad Furqan | Full Stack Developer" />
+  <meta property="og:description" content="Java & Spring Boot • AI/ML Integration • Full Stack Web Applications" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <title>Muhammad Furqan | Full Stack Developer</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['Space Grotesk', 'sans-serif'],
+            sans: ['Inter', 'sans-serif']
+          },
+          colors: {
+            ink: '#070b14',
+            panel: '#0d1321',
+            line: '#1c2638',
+            accent: '#7c3aed',
+            electric: '#38bdf8'
+          },
+          boxShadow: {
+            glow: '0 0 0 1px rgba(124,58,237,.28), 0 20px 80px rgba(56,189,248,.08)'
+          }
+        }
+      }
+    };
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="bg-ink text-slate-100 antialiased selection:bg-violet-400/30 selection:text-white">
+  <div class="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
+    <div class="aurora aurora-one"></div>
+    <div class="aurora aurora-two"></div>
+    <div class="grid-bg"></div>
+  </div>
+
+  <header class="fixed inset-x-0 top-0 z-50">
+    <nav class="mx-auto mt-4 flex max-w-6xl items-center justify-between rounded-2xl border border-white/10 bg-slate-950/65 px-4 py-3 shadow-2xl backdrop-blur-xl sm:px-6" aria-label="Primary navigation">
+      <a href="#home" class="font-display text-lg font-bold tracking-tight">MF<span class="text-sky-400">.</span></a>
+      <div class="hidden items-center gap-7 text-sm text-slate-300 md:flex">
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#experience">Experience</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </div>
+      <a href="#contact" class="hidden rounded-xl border border-white/10 bg-white/[0.06] px-4 py-2 text-sm font-semibold text-white transition hover:bg-white/10 sm:inline-flex">Let's talk</a>
+      <button id="menuBtn" class="inline-flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/[0.05] text-slate-200 md:hidden" aria-label="Open menu" aria-expanded="false">
+        <span class="text-xl">☰</span>
+      </button>
+    </nav>
+    <div id="mobileMenu" class="mx-4 mt-2 hidden rounded-2xl border border-white/10 bg-slate-950/90 p-3 shadow-2xl backdrop-blur-xl md:hidden">
+      <a class="mobile-link" href="#about">About</a>
+      <a class="mobile-link" href="#experience">Experience</a>
+      <a class="mobile-link" href="#projects">Projects</a>
+      <a class="mobile-link" href="#skills">Skills</a>
+      <a class="mobile-link" href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="mx-auto flex min-h-screen max-w-6xl items-center px-4 pb-20 pt-32 sm:px-6 lg:px-8">
+      <div class="grid w-full gap-12 lg:grid-cols-[1.25fr_.75fr] lg:items-center">
+        <div class="reveal">
+          <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-sky-400/20 bg-sky-400/[0.06] px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-sky-300">
+            <span class="h-2 w-2 rounded-full bg-sky-400 pulse-dot"></span>
+            Open to opportunities
+          </div>
+          <p class="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-slate-400">Muhammad Furqan</p>
+          <h1 class="max-w-4xl font-display text-5xl font-bold leading-[0.98] tracking-tight sm:text-6xl lg:text-7xl">
+            Full Stack Developer<br />
+            <span class="hero-gradient">building useful software.</span>
+          </h1>
+          <p class="mt-7 max-w-2xl text-base leading-8 text-slate-300 sm:text-lg">
+            Java & Spring Boot developer focused on end-to-end web applications, secure APIs, AI/ML integration, and polished user experiences.
+          </p>
+          <div class="mt-9 flex flex-col gap-3 sm:flex-row">
+            <a href="#projects" class="group inline-flex items-center justify-center gap-2 rounded-xl bg-white px-5 py-3 text-sm font-bold text-slate-950 transition hover:-translate-y-0.5 hover:bg-slate-100">
+              View selected work <span class="transition group-hover:translate-x-1">→</span>
+            </a>
+            <a href="assets/Muhammad_Furqan_Resume.pdf" target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/[0.04] px-5 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-white/[0.08]">
+              View resume <span>↗</span>
+            </a>
+          </div>
+          <div class="mt-10 flex flex-wrap gap-x-6 gap-y-3 text-sm text-slate-400">
+            <a class="social-link" href="mailto:mfurqanch.dev@gmail.com">mfurqanch.dev@gmail.com</a>
+            <a class="social-link" href="tel:+923275144926">+92 327 5144926</a>
+          </div>
+        </div>
+
+        <div class="reveal reveal-delay-2">
+          <div class="relative mx-auto max-w-md">
+            <div class="absolute -inset-8 rounded-[2rem] bg-violet-600/10 blur-3xl"></div>
+            <div class="relative overflow-hidden rounded-[2rem] border border-white/10 bg-gradient-to-br from-white/[0.09] to-white/[0.02] p-6 shadow-glow">
+              <div class="flex items-center justify-between border-b border-white/10 pb-4">
+                <span class="text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">developer.profile</span>
+                <span class="rounded-full border border-emerald-400/20 bg-emerald-400/10 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-emerald-300">available</span>
+              </div>
+              <div class="py-8">
+                <div class="mx-auto flex h-28 w-28 items-center justify-center rounded-[2rem] border border-white/10 bg-slate-900 shadow-2xl">
+                  <span class="font-display text-4xl font-bold text-white">MF</span>
+                </div>
+                <div class="mt-6 text-center">
+                  <h2 class="font-display text-2xl font-bold">Java × AI</h2>
+                  <p class="mt-2 text-sm text-slate-400">Spring Boot • Flask • MySQL</p>
+                </div>
+              </div>
+              <div class="grid grid-cols-3 gap-2 border-t border-white/10 pt-4 text-center">
+                <div class="rounded-xl bg-white/[0.035] p-3"><div class="text-lg font-bold">2</div><div class="text-[10px] uppercase tracking-wider text-slate-500">Roles</div></div>
+                <div class="rounded-xl bg-white/[0.035] p-3"><div class="text-lg font-bold">2</div><div class="text-[10px] uppercase tracking-wider text-slate-500">Projects</div></div>
+                <div class="rounded-xl bg-white/[0.035] p-3"><div class="text-lg font-bold">AI</div><div class="text-[10px] uppercase tracking-wider text-slate-500">Focus</div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section-shell">
+      <div class="section-kicker">01 — About</div>
+      <div class="grid gap-10 lg:grid-cols-[.8fr_1.2fr]">
+        <div class="reveal">
+          <h2 class="section-title">Engineering from<br /><span class="muted-gradient">backend to browser.</span></h2>
+        </div>
+        <div class="reveal reveal-delay-1">
+          <p class="max-w-3xl text-lg leading-8 text-slate-300">Full Stack Developer with hands-on experience building end-to-end web applications combining Java/Spring Boot and Python/Flask, including integration of machine learning models into production-ready systems.</p>
+          <p class="mt-5 max-w-3xl leading-7 text-slate-400">A practical approach to database design, secure authentication, REST APIs, frontend delivery, and complete real-world solutions.</p>
+          <div class="mt-8 grid gap-3 sm:grid-cols-3">
+            <div class="stat-card"><span>Backend</span><strong>Spring Boot</strong></div>
+            <div class="stat-card"><span>AI bridge</span><strong>Python + Flask</strong></div>
+            <div class="stat-card"><span>Data</span><strong>MySQL / SQL</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section-shell">
+      <div class="section-kicker">02 — Experience</div>
+      <div class="grid gap-5">
+        <article class="timeline-card reveal">
+          <div class="timeline-dot"></div>
+          <div class="grid gap-7 lg:grid-cols-[.32fr_1fr]">
+            <div>
+              <div class="text-sm font-semibold text-sky-300">June 2025 — Sept 2025</div>
+              <h3 class="mt-2 font-display text-xl font-bold">Full-Stack Developer</h3>
+              <p class="mt-1 text-sm text-slate-500">Zad Technology · Johar Town, Lahore</p>
+            </div>
+            <div>
+              <p class="leading-7 text-slate-300">Built and maintained scalable web applications using Spring Boot, REST APIs, Flask, JWT, and MySQL while developing reusable components.</p>
+              <p class="mt-4 leading-7 text-slate-400">Implemented advanced features including semantic search, document chunking, and real-time data handling to improve system performance and user experience.</p>
+              <div class="mt-5 flex flex-wrap gap-2">
+                <span class="chip">Spring Boot</span><span class="chip">REST APIs</span><span class="chip">Flask</span><span class="chip">JWT</span><span class="chip">MySQL</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-card reveal reveal-delay-1">
+          <div class="timeline-dot"></div>
+          <div class="grid gap-7 lg:grid-cols-[.32fr_1fr]">
+            <div>
+              <div class="text-sm font-semibold text-violet-300">June 2024 — Sept 2024</div>
+              <h3 class="mt-2 font-display text-xl font-bold">Full-Stack Developer (Intern)</h3>
+              <p class="mt-1 text-sm text-slate-500">Zad Technology · Johar Town, Lahore</p>
+            </div>
+            <div>
+              <p class="leading-7 text-slate-300">Built responsive frontend interfaces using HTML, CSS, and Thymeleaf, integrating REST APIs for user registration, profile management, and matchmaking features.</p>
+              <p class="mt-4 leading-7 text-slate-400">Developed backend services with Spring Boot, handling authentication, data validation, and MySQL database operations.</p>
+              <div class="mt-5 flex flex-wrap gap-2">
+                <span class="chip">HTML/CSS</span><span class="chip">Thymeleaf</span><span class="chip">Spring Boot</span><span class="chip">MySQL</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section-shell">
+      <div class="flex flex-col justify-between gap-5 sm:flex-row sm:items-end">
+        <div>
+          <div class="section-kicker">03 — Selected work</div>
+          <h2 class="section-title reveal">Projects that connect<br /><span class="muted-gradient">software + intelligence.</span></h2>
+        </div>
+        <p class="max-w-md text-sm leading-6 text-slate-500 reveal reveal-delay-1">Two full-stack systems from the uploaded resume, presented as portfolio case studies.</p>
+      </div>
+
+      <div class="mt-10 grid gap-6 lg:grid-cols-2">
+        <article class="project-card group reveal">
+          <div class="project-visual ai-visual">
+            <div class="code-window">
+              <div class="window-head"><span></span><span></span><span></span><label>advisor.ai</label></div>
+              <div class="code-lines">
+                <div><i>model</i> = RandomForestClassifier()</div>
+                <div><i>risk</i> = <b>"Medium"</b></div>
+                <div><i>weak_courses</i> = [<b>"DBMS"</b>]</div>
+                <div><i>report</i> → personalized_plan()</div>
+              </div>
+            </div>
+            <div class="metric-card metric-a"><span>Risk</span><strong>Medium</strong></div>
+            <div class="metric-card metric-b"><span>Analyzer</span><strong>AI Report</strong></div>
+          </div>
+          <div class="p-7">
+            <div class="flex flex-wrap items-center gap-2 text-[11px] font-semibold uppercase tracking-wider text-slate-500"><span>Final Year Project</span><span>•</span><span>AI / ML</span></div>
+            <h3 class="mt-3 font-display text-2xl font-bold">AI-Powered Student Academic Advisor System</h3>
+            <p class="mt-3 leading-7 text-slate-400">Full-stack AI advisory platform for academic risk prediction, student classification, transcript analysis, recommendations, and analytics.</p>
+            <div class="mt-5 flex flex-wrap gap-2">
+              <span class="chip">Random Forest</span><span class="chip">Logistic Regression</span><span class="chip">JWT</span><span class="chip">Spring Boot</span><span class="chip">Flask</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card group reveal reveal-delay-1">
+          <div class="project-visual store-visual">
+            <div class="store-browser">
+              <div class="window-head"><span></span><span></span><span></span><label>store.admin</label></div>
+              <div class="store-body">
+                <div class="store-nav"></div>
+                <div class="store-grid">
+                  <div class="store-box tall"></div><div class="store-box"></div><div class="store-box"></div><div class="store-box wide"></div>
+                </div>
+              </div>
+            </div>
+            <div class="floating-tag tag-a">Admin Portal</div>
+            <div class="floating-tag tag-b">MySQL</div>
+          </div>
+          <div class="p-7">
+            <div class="flex flex-wrap items-center gap-2 text-[11px] font-semibold uppercase tracking-wider text-slate-500"><span>Full Stack</span><span>•</span><span>E-Commerce</span></div>
+            <h3 class="mt-3 font-display text-2xl font-bold">E-Commerce Store &amp; Admin Portal</h3>
+            <p class="mt-3 leading-7 text-slate-400">Product browsing, cart and checkout flows paired with a dedicated portal for managing products, orders, and users.</p>
+            <div class="mt-5 flex flex-wrap gap-2">
+              <span class="chip">Spring Boot</span><span class="chip">Thymeleaf</span><span class="chip">REST</span><span class="chip">MySQL</span><span class="chip">RBAC</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section-shell">
+      <div class="section-kicker">04 — Stack</div>
+      <div class="grid gap-8 lg:grid-cols-[.65fr_1.35fr]">
+        <div class="reveal"><h2 class="section-title">Tools I use to<br /><span class="muted-gradient">ship end-to-end.</span></h2></div>
+        <div class="grid gap-4 sm:grid-cols-2">
+          <div class="skill-panel reveal"><span class="skill-index">01</span><h3>Backend</h3><p>Spring Boot · REST APIs · Flask · JWT Authentication</p></div>
+          <div class="skill-panel reveal reveal-delay-1"><span class="skill-index">02</span><h3>Frontend</h3><p>HTML · TailwindCSS · Bootstrap · JavaScript · Thymeleaf</p></div>
+          <div class="skill-panel reveal reveal-delay-2"><span class="skill-index">03</span><h3>Databases</h3><p>MySQL · SQL · PostgreSQL</p></div>
+          <div class="skill-panel reveal reveal-delay-3"><span class="skill-index">04</span><h3>AI / Machine Learning</h3><p>Scikit-learn · Random Forest · Logistic Regression</p></div>
+          <div class="skill-panel sm:col-span-2 reveal"><span class="skill-index">05</span><h3>Developer Tools &amp; Cloud</h3><p>Git · GitHub · Vercel · AWS · Railway · Codex</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section-shell">
+      <div class="section-kicker">05 — Education</div>
+      <div class="education-card reveal">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-[0.2em] text-slate-500">2022 — 2026</span>
+          <h2 class="mt-3 font-display text-2xl font-bold">Bachelor of Science in Computer Science</h2>
+          <p class="mt-2 text-slate-400">International Islamic University, Islamabad</p>
+        </div>
+        <div class="edu-mark" aria-hidden="true">IIUI</div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-shell pb-24">
+      <div class="contact-card reveal">
+        <div class="max-w-2xl">
+          <div class="section-kicker">06 — Contact</div>
+          <h2 class="font-display text-4xl font-bold tracking-tight sm:text-5xl">Let's build something<br /><span class="hero-gradient">worth shipping.</span></h2>
+          <p class="mt-5 max-w-xl leading-7 text-slate-400">For internships, junior full-stack opportunities, or projects involving Java/Spring Boot and AI/ML integration, reach out directly.</p>
+        </div>
+        <div class="mt-9 flex flex-col gap-3 sm:flex-row">
+          <a href="mailto:mfurqanch.dev@gmail.com?subject=Portfolio%20Opportunity" class="inline-flex items-center justify-center gap-2 rounded-xl bg-white px-5 py-3 text-sm font-bold text-slate-950 transition hover:-translate-y-0.5">Email me <span>↗</span></a>
+          <button id="copyEmail" class="inline-flex items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/[0.05] px-5 py-3 text-sm font-semibold text-white transition hover:bg-white/[0.09]">Copy email</button>
+        </div>
+        <div class="mt-6 text-sm text-slate-500">mfurqanch.dev@gmail.com · +92 327 5144926</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/5">
+    <div class="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-8 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8">
+      <span>© <span id="year"></span> Muhammad Furqan</span>
+      <span>Built with HTML + TailwindCSS + a little JavaScript.</span>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
